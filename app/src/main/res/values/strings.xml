@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="web_client_id">976599583252-bdp8g283dehgai53cn6m11c6t5vudldk.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.TuVanActivity">
+
+    <TextView
+        android:id="@+id/txtTuVan"
+        android:layout_width="412dp"
+        android:layout_height="62dp"
+
+        android:layout_marginTop="540dp"
+        android:background="@drawable/round_btn"
+        android:gravity="center"
+        android:text="Tư vấn cho khách hàng"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="384dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="36dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_black" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="4dp"
+        android:text="Cảm ơn đã sử dụng dịch vụ của chúng tôi!"
+        android:textAlignment="center"
+        android:textColor="#5AEF50"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.686"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="388dp"
+        android:layout_height="21dp"
+        android:layout_marginBottom="140dp"
+        android:text="Gửi yêu cầu qua mail bằng cách nhấn vào nút dưới đây. "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="15dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
